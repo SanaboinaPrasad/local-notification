@@ -1,0 +1,6 @@
+version: "Apple Swift version 4.2 (swiftlang-1000.11.37.1 clang-1000.11.45.1)"
+options: "df91876ef627e84b157f2d228d164ffe"
+build_time: [1542028398, 143693000]
+inputs:
+  "/Users/sriramprasad/Dev/rough/Notifications1/Notifications1/ViewController.swift": [1542028397, 0]
+  "/Users/sriramprasad/Dev/rough/Notifications1/Notifications1/AppDelegate.swift": [1542027237, 0]

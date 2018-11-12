@@ -10,7 +10,6 @@
 		081BEF4D2199A1C2008D1FA1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 081BEF4C2199A1C2008D1FA1 /* AppDelegate.swift */; };
 		081BEF4F2199A1C2008D1FA1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 081BEF4E2199A1C2008D1FA1 /* ViewController.swift */; };
 		081BEF522199A1C2008D1FA1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 081BEF502199A1C2008D1FA1 /* Main.storyboard */; };
-		081BEF552199A1C2008D1FA1 /* Notifications1.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 081BEF532199A1C2008D1FA1 /* Notifications1.xcdatamodeld */; };
 		081BEF572199A1C3008D1FA1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 081BEF562199A1C3008D1FA1 /* Assets.xcassets */; };
 		081BEF5A2199A1C3008D1FA1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 081BEF582199A1C3008D1FA1 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
@@ -20,7 +19,6 @@
 		081BEF4C2199A1C2008D1FA1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		081BEF4E2199A1C2008D1FA1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		081BEF512199A1C2008D1FA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		081BEF542199A1C2008D1FA1 /* Notifications1.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Notifications1.xcdatamodel; sourceTree = "<group>"; };
 		081BEF562199A1C3008D1FA1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		081BEF592199A1C3008D1FA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		081BEF5B2199A1C3008D1FA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -62,7 +60,6 @@
 				081BEF562199A1C3008D1FA1 /* Assets.xcassets */,
 				081BEF582199A1C3008D1FA1 /* LaunchScreen.storyboard */,
 				081BEF5B2199A1C3008D1FA1 /* Info.plist */,
-				081BEF532199A1C2008D1FA1 /* Notifications1.xcdatamodeld */,
 			);
 			path = Notifications1;
 			sourceTree = "<group>";
@@ -140,7 +137,6 @@
 			files = (
 				081BEF4F2199A1C2008D1FA1 /* ViewController.swift in Sources */,
 				081BEF4D2199A1C2008D1FA1 /* AppDelegate.swift in Sources */,
-				081BEF552199A1C2008D1FA1 /* Notifications1.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,19 +336,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		081BEF532199A1C2008D1FA1 /* Notifications1.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				081BEF542199A1C2008D1FA1 /* Notifications1.xcdatamodel */,
-			);
-			currentVersion = 081BEF542199A1C2008D1FA1 /* Notifications1.xcdatamodel */;
-			path = Notifications1.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 081BEF412199A1C2008D1FA1 /* Project object */;
 }
